@@ -1,0 +1,344 @@
+a:visited, a:link {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    /* background: #c9cdcc; */
+    background: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+}
+.return {
+    width: 50px!important;
+    height: 50px!important;
+    position: fixed;
+    top: 90%;
+    left: 2%;
+    text-align: center;
+    background: linear-gradient(#AA7624, #714D1F );
+    border-radius: 10px;
+    border: 2px solid #0a2125;
+    font-size: 2em;
+    line-height: 55px;
+    color: #0a2125!important;
+}
+.return:hover {
+    background: #AA7624;
+
+}
+#curriculum {
+    width: 900px;
+    height: 1200px;
+    display: block;
+    margin: 40px auto;
+    box-shadow: 10px 10px #140e0a;
+}
+.leftfield {
+    width: 280px;
+    height: 1200px;
+    float: left;
+    background-image: linear-gradient(#080504, #18100c, #080504) ;
+    color: white;
+}
+.profilephoto {
+    display: block;
+    width: 200px;
+    margin: 50px auto 20px auto;
+
+}
+h1 {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-size: 2.8em;
+    color: #b2a59d;
+}
+.lastname {
+    color: #7c531d;
+}
+.designer {
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    color: #857f7f;
+}
+.leftimagesicon {
+    float: left;
+    width: 40px;
+    margin: 50px 20px 0px 30px;
+}
+.titlesleft {
+    width: 190px;
+    float: left;
+    margin: 50px auto 20px auto;
+    font-size: 2em;
+    color: #b1a29f;
+
+}
+.profileparagraph {
+    display: block;
+    margin: 0 auto 50px auto;
+    width: 210px;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    color: #8d8789;
+    text-align: justify;
+
+}
+.contacticon {
+    float: left;
+    width: 25px;
+    margin: 10px 20px 10px 35px;
+}
+.contactparagraph {
+    float: left;
+    width: 190px;
+    height: 25px;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    color: #8d8789;
+    margin: 10px 0;
+}
+.contactparagraph:hover {
+    color: #ab771c;
+}
+.socialconteiner {
+    width: 280px;
+    height: 40px;
+    margin-top: 30px;
+    float: left;
+    text-align: center;
+    word-spacing: 2em;
+}
+.socialicon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+.linkedinicon {
+    background: url('../images/linkedin-icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 1s;
+    
+}
+.linkedinicon:hover {
+    background: url('../images/linkedin-icon-hover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 1s;
+}
+.instagramicon {
+    background: url('../images/instagram-icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 1s;
+}
+.instagramicon:hover {
+    background: url('../images/instagram-icon-hover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 1s;
+}
+.githubicon {
+    background: url('../images/github-icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 1s;
+}
+.githubicon:hover {
+    background: url('../images/github-icon-hover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 1s;
+}
+.rightfield {
+    width: 590px;
+    height: 1140px;
+    float: right;
+    background: #ccc4c1;
+    border-top: 30px solid #080504;
+    border-right: 30px solid #080504;
+    border-bottom: 30px solid #080504;
+}
+.rightfield h2, h3 {
+    color: #2a1d15; 
+}
+.northeastfield {
+    width: 590px;
+    height: 500px;
+    float: left;
+
+}
+.rightimagesicon {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 30px 0 30px 20px;    
+}
+.northeastfield h2 {
+    padding: 0;
+    width:  510px;
+    height: 40px;
+    float: left;
+    margin: 30px 0 30px 20px;
+    font-size: 2em;
+}
+.northeastfield h3 {
+    float: left;
+    margin: 0 0 0 80px;
+    font-size: 1.5em;
+}
+.dates {
+    width: 300px;
+    float: left;
+    margin-left: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8em;
+    color: #766f69;
+}
+.occupation {
+    width: 510px;
+    float: left;
+    margin-left: 80px;
+    font-family: 'Kalam', cursive;
+    font-size: 1.3em;
+    color: #7c531d;
+    font-weight: bold;
+}
+.northeastfield p {
+    width: 500px;
+    float: left;
+    margin: 0 auto 20px 80px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    color: #332d2b;
+}
+.middlefield {
+    width: 590px;
+    height: 250px;
+    float: left;
+}
+.middlefield h2 {
+    padding: 0;
+    width:  510px;
+    height: 40px;
+    float: left;
+    margin: 30px 0 30px 20px;
+    font-size: 2em;
+}
+.middlefield table {
+    width: 450px;
+    float: left;
+    margin: 20px 70px;
+    text-align: center;
+}
+.middlefield table th {
+    font-size: 1.7em;
+    color: #2a1d15; 
+}
+.dateseducation {
+    font-family: 'Lato', sans-serif;
+}
+.schooleducation {
+    font-family: 'Kalam', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #7c531d;
+}
+.lowfield {
+    width: 590px;
+    height: 240px;
+    float: left;
+}
+.lowfield h2 {
+    padding: 0;
+    width:  510px;
+    height: 40px;
+    float: left;
+    margin: 30px 0 30px 20px;
+    font-size: 2em;
+}
+.lowfield ul {
+    float: left;
+    padding: 0;
+    margin: 0 0 0 80px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+    color: #332d2b;
+}
+.bottomfield {
+    width: 590px;
+    height: 150px;
+    float: left;
+}
+.bottomfield h2 {
+    padding: 0;
+    width:  510px;
+    height: 40px;
+    float: left;
+    margin: 30px 0 25px 20px;
+    font-size: 2em;
+}
+.hobbiesicon {
+    width: 590px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    word-spacing: 2em;
+}
+.bottomfield a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+.musicicon {
+    background: url('../images/music-icon.png') no-repeat;
+    background-size: cover;
+}
+.sporticon {
+    background: url('../images/sport-icon.png') no-repeat;
+    background-size: cover;
+}
+.bookicon {
+    background: url('../images/book-icon.png') no-repeat;
+    background-size: cover;
+}
+.drawicon {
+    background: url('../images/photo-icon.png') no-repeat;
+    background-size: cover;
+}
+/*music.html*/
+
+.rightfielddesign {
+    width: 490px;
+    height: 990px;
+    padding: 0 50px;
+    float: left;
+}
+.drawingstitle {
+    height: 50px;
+    text-align: center;
+    font-size: 3em;
+}
+.designs {
+    width: auto;
+    margin: 20px 15px;
+    display: inline-block;
+}
+.designsimages {
+    width: 200px;
+    border: 2px dashed #332d2b;
+}
+.designsimagebottom {
+    width: 400px;
+    margin: 20px 40px;
+    border: 2px dashed #332d2b;
+}
